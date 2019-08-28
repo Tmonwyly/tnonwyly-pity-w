@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/demo_dubbo.iml" filepath="$PROJECT_DIR$/.idea/demo_dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qunar-hotel/qunar-hotel.iml" filepath="$PROJECT_DIR$/qunar-hotel/qunar-hotel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qunar_pay/qunar-pay.iml" filepath="$PROJECT_DIR$/qunar_pay/qunar-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qunar-piao/qunar-piao.iml" filepath="$PROJECT_DIR$/qunar-piao/qunar-piao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qunar-service-interface/qunar-service-interface.iml" filepath="$PROJECT_DIR$/qunar-service-interface/qunar-service-interface.iml" />
+    </modules>
+  </component>
+</project>

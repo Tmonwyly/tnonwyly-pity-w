@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+<context:component-scan base-package="com.qianfeng.qunar"></context:component-scan>
+   <!--当前项目的标识名称，唯一-->
+    <dubbo:application name="qunar-hotel"/>
+    <!--配置注册中心-->
+    <dubbo:registry address="redis://192.168.174.129:6379"/>
+    <!--<dubbo:registry address="zookeeper://192.168.174.129:2181"/>-->
+    <!--需要使用注册中心里面的哪一个接口-->
+    <!--interface配置的是需要使用注册中心的那一条服务，取值要同注册中心的服务名称一直-->
+    <dubbo:reference check="false" id="demoService" interface="com.qianfeng.qunar.face.IPayService"/>
+
+
+</beans>

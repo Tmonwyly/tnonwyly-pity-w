@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="qunar-hotel" />
+        <module name="qunar-pay" />
+        <module name="qunar-piao" />
+        <module name="qunar-service-interface" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="day33" target="1.8" />
+      <module name="day33 (1)" target="1.7" />
+      <module name="qunar-hotel" target="1.8" />
+      <module name="qunar-pay" target="1.8" />
+      <module name="qunar-piao" target="1.8" />
+      <module name="qunar-service-interface" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
